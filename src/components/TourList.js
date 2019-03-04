@@ -20,7 +20,7 @@ export default class TourList extends Component {
   }
 
   render() {
-    console.log(this.state);
+
     return <ScrollView>{this.renderTours()}</ScrollView>;
   }
 }
